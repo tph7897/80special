@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영남일보 80주년 연혁</title>
+    <script src="Footer.js" defer></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .history-header {
+        height: 300px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/top-section-backgroundimg.jpg") no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .header-text-1945 {
+        margin-top: 60px;
+        font-size: 50px;
+        color: white;
+      }
+      .header-text-80 {
+        font-size: 80px;
+        color: #00a6a3;
+      }
+      .top-left-logo {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 115px;
+        height: 33px;
+      }
+
+      .main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 0 5% 0;
+      }
+      .history-img {
+        width: 85%;
+        max-width: 1300px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="history-header">
+      <a href="https://www.yeongnam.com/web/">
+        <img src="./img/logo.png" class="top-left-logo" alt="로고" />
+      </a>
+      <p class="header-text-1945">since 1945••</p>
+      <p class="header-text-80">영남일보 80년</p>
+    </header>
+    <main>
+      <div class="main-container">
+        <img src="./img/history_pc.webp" class="history-img" alt="연혁 이미지" />
+      </div>
+    </main>
+    <my-footer></my-footer>
+  </body>
+</html>
