@@ -292,15 +292,15 @@ button {
 }
 
 .top-background-wrapper .top-background:nth-child(1) {
-  background-image: url("img/img1.png");
+  background-image: url("./img/img1.png");
 }
 
 .top-background-wrapper .top-background:nth-child(2) {
-  background-image: url("img/img2.png");
+  background-image: url("./img/img2.png");
 }
 
 .top-background-wrapper .top-background:nth-child(3) {
-  background-image: url("img/img3.png");
+  background-image: url("./img/img3.png");
 }
 
 /* 활성화된 이미지 */
@@ -351,15 +351,15 @@ button {
   }
 
   .top-background-wrapper .top-background:nth-child(1) {
-    background-image: url("img/m_img1.png");
+    background-image: url("./img/m_img1.png");
   }
 
   .top-background-wrapper .top-background:nth-child(2) {
-    background-image: url("img/m_img2.png");
+    background-image: url("./img/m_img2.png");
   }
 
   .top-background-wrapper .top-background:nth-child(3) {
-    background-image: url("img/m_img3.png");
+    background-image: url("./img/m_img3.png");
   }
 
   .top-left-container {

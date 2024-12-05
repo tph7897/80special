@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="all" />
+    <link rel="stylesheet" href="style.css" />
+    <title>영남일보 80주년 연혁</title>
+    <meta name="description" content="수도권을 제외한 지역신문 중 가장 오래된 역사를 가진 지역 일간지 영남일보입니다. 현재는 디지털 전환을 통해 미래를 대비하고 있습니다." />
+    <meta name="keywords" content="영남일보 80주년" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="영남일보 80주년" />
+    <meta property="og:title" content="영남일보 80주년" />
+    <meta property="og:description" content="수도권을 제외한 지역신문 중 가장 오래된 역사를 가진 지역 일간지 영남일보입니다. 현재는 디지털 전환을 통해 미래를 대비하고 있습니다." />
+    <meta property="og:image" content="https://www.yeongnam.com/web/images/yeongnam_logo.png" />
+    <meta property="og:url" content="https://www.yeongnam.com/80special/history.html" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="325" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="영남일보 80주년" />
+    <meta name="twitter:description" content="수도권을 제외한 지역신문 중 가장 오래된 역사를 가진 지역 일간지 영남일보입니다. 현재는 디지털 전환을 통해 미래를 대비하고 있습니다." />
+    <meta name="twitter:image" content="https://www.yeongnam.com/web/images/yeongnam_logo.png" />
+    <meta name="twitter:domain" content="https://www.yeongnam.com/80special" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <!-- Chrome, Safari, IE -->
+    <link rel="shortcut icon" href="//www.yeongnam.com/web/images/favicon7n.ico" />
+    <!-- Firefox, Opera (Chrome and Safari say thanks but no thanks) -->
+    <link rel="shortcut icon" href="//www.yeongnam.com/web/images/favicon7n.ico" />
     <title>영남일보 80주년 연혁</title>
     <script src="Footer.js" defer></script>
     <style>
@@ -22,11 +49,11 @@
       }
       .header-text-1945 {
         margin-top: 60px;
-        font-size: 50px;
+        font-size: max(4vw, 24px);
         color: white;
       }
       .header-text-80 {
-        font-size: 80px;
+        font-size: max(6vw, 40px);
         color: #00a6a3;
       }
       .top-left-logo {
@@ -42,10 +69,14 @@
         align-items: center;
         justify-content: center;
         padding: 5% 0 5% 0;
+        background-color: white;
+      }
+      .history-picture {
+        width: 90%;
+        max-width: 1300px;
       }
       .history-img {
-        width: 85%;
-        max-width: 1300px;
+        width: 100%;
       }
     </style>
   </head>
@@ -59,7 +90,11 @@
     </header>
     <main>
       <div class="main-container">
-        <img src="./img/history_pc.webp" class="history-img" alt="연혁 이미지" />
+        <picture class="history-picture">
+          <source media="(max-width: 700px)" srcset="./img/history_m.webp" />
+          <img src="./img/history_pc.webp" class="history-img" alt="연혁 이미지" />
+        </picture>
+        <!-- <div class="history-img"></div> -->
       </div>
     </main>
     <my-footer></my-footer>
