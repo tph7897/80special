@@ -9,16 +9,16 @@ document.addEventListener("DOMContentLoaded", () => {
   /* --------------------------- 변수 정의 --------------------------------- */
 
   const bottom_contents = [
-    { image: "./img/1.jpg", text: "극 현대사와 함께한 영남일보", url: "" },
-    { image: "./img/2.jpg", text: "SINCE 1945... 영남일보 80년", url: "" },
-    { image: "./img/3-1.jpg", text: "영남일보의 시대 정신", url: "" },
-    { image: "./img/3-2.jpg", text: "가장 열동률 높은 신문 발행부수로는 전국 4대 지방지", url: "" },
-    { image: "./img/4.jpg", text: "영남일보와 함께한 사람들", url: "" },
-    { image: "./img/5.jpg", text: "지역 아젠다 선도", url: "" },
-    { image: "./img/5.jpg", text: "영남일보 서체+구상 선생체 무료 다운로드 서비스", url: "" },
-    { image: "./img/89_4_19.jpg", text: "80주년 특집기사", url: "" },
-    { image: "./img/3-1.jpg", text: "온라인 강화 AI시대를 선도하는 영남일보", url: "" },
-    { image: "./img/3-2.jpg", text: "공공저널리즘 다양한 사회공헌", url: "" },
+    { image: "./img/1_bottom_card.webp", text: "since 1945…영남일보 80년", url: "https://www.yeongnam.com/80special/history.html" },
+    { image: "./img/2_bottom_card.webp", text: "영남일보의 시대 정신", url: "" },
+    { image: "./img/3_bottom_card.webp", text: "근·현대사와 함께한 영남일보", url: "" },
+    { image: "./img/4_bottom_card.webp", text: "영남일보와 함께한 사람들", url: "" },
+    { image: "./img/5_bottom_card.webp", text: "이중섭과 함께한 영남일보", url: "" },
+    { image: "./img/6_bottom_card.webp", text: "대구경북 아젠다 선도", url: "" },
+    { image: "./img/7_bottom_card.webp", text: "공공저널리즘 다양한 사회공헌", url: "" },
+    { image: "./img/8_bottom_card.webp", text: "디지털 시대를 선도하는 신문", url: "" },
+    { image: "./img/9_bottom_card.webp", text: "전국서 가장 열독률 높은 신문", url: "" },
+    { image: "./img/10_bottom_card.webp", text: "창간 80주년 특집기사", url: "" },
   ];
 
   const backgrounds = document.querySelectorAll(".top-background");

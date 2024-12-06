@@ -30,51 +30,41 @@ button {
 
 /* --------------------------------------------------------- 👇🏻 폰트 css */
 
-/* Regular */
+/* Noto Sans KR */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Regular.otf") format("opentype");
-  font-weight: normal;
+  font-weight: normal; /* Regular */
   font-style: normal;
 }
-
-/* Medium */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Medium.otf") format("opentype");
-  font-weight: 700;
+  font-weight: 700; /* Medium */
   font-style: normal;
 }
-
-/* Thin */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Thin.otf") format("opentype");
-  font-weight: 100; /* Thin 스타일을 100으로 설정 */
+  font-weight: 100; /* Thin */
   font-style: normal;
 }
-
-/* Light */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Light.otf") format("opentype");
-  font-weight: 300; /* Light 스타일을 300으로 설정 */
+  font-weight: 300; /* Light */
   font-style: normal;
 }
-
-/* Bold */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Bold.otf") format("opentype");
-  font-weight: bold;
+  font-weight: bold; /* Bold */
   font-style: normal;
 }
-
-/* Black */
 @font-face {
   font-family: "Noto Sans KR";
   src: url("fonts/Noto_Sans_KR/NotoSansKR-Black.otf") format("opentype");
-  font-weight: 900; /* Black 스타일을 900으로 설정 */
+  font-weight: 900; /* Black */
   font-style: normal;
 }
 
@@ -85,7 +75,6 @@ button {
   font-weight: 100; /* Thin */
   font-style: normal;
 }
-
 /* Extra Light - SCDream2 */
 @font-face {
   font-family: "SCDream";
@@ -93,7 +82,6 @@ button {
   font-weight: 200; /* Extra Light */
   font-style: normal;
 }
-
 /* Light - SCDream3 */
 @font-face {
   font-family: "SCDream";
@@ -101,7 +89,6 @@ button {
   font-weight: 300; /* Light */
   font-style: normal;
 }
-
 /* Regular - SCDream4 */
 @font-face {
   font-family: "SCDream";
@@ -109,7 +96,6 @@ button {
   font-weight: 400; /* Regular */
   font-style: normal;
 }
-
 /* Medium - SCDream5 */
 @font-face {
   font-family: "SCDream";
@@ -117,15 +103,13 @@ button {
   font-weight: 500; /* Medium */
   font-style: normal;
 }
-
 /* Semi Bold - SCDream6 */
 @font-face {
   font-family: "SCDream";
   src: url("fonts/SCDream_KR/SCDream6.otf") format("opentype");
-  font-weight: 600; /* Semi Bold */
+  font-weight: 600;
   font-style: normal;
 }
-
 /* Bold - SCDream7 */
 @font-face {
   font-family: "SCDream";
@@ -133,7 +117,6 @@ button {
   font-weight: 700; /* Bold */
   font-style: normal;
 }
-
 /* Extra Bold - SCDream8 */
 @font-face {
   font-family: "SCDream";
@@ -141,7 +124,6 @@ button {
   font-weight: 800; /* Extra Bold */
   font-style: normal;
 }
-
 /* Black - SCDream9 */
 @font-face {
   font-family: "SCDream";
@@ -149,7 +131,6 @@ button {
   font-weight: 900; /* Black */
   font-style: normal;
 }
-
 @font-face {
   font-family: "KOHI";
   src: url("fonts/KOHI_KR/KOHIBaeumOTF.otf") format("opentype");
@@ -212,9 +193,9 @@ button {
 .top-section {
   display: flex;
   width: 100%;
-  height: 700px;
   position: relative;
   background-image: url("./img/bg.png");
+  background-size: cover;
 }
 
 .top-container {
@@ -227,8 +208,9 @@ button {
 }
 
 .top-left-container {
+  padding-top: 1%;
+  padding-bottom: 3%;
   width: 40%;
-  height: 540px;
   display: flex;
   margin-left: 5%;
   gap: 10px;
@@ -245,28 +227,30 @@ button {
 }
 
 .top-left-main-title {
+  margin-top: 30px;
   display: flex;
   align-items: center;
   font-family: "SCDream";
   font-weight: 600;
   font-style: normal;
-  font-size: 71px;
+  font-size: 30px;
   color: white;
   z-index: 5;
   text-shadow: -0.5px 0px black, 0px 0.5px black, 0.5px 0px black, 0px -0.5px black;
 }
 
 .top-left-image80 {
-  margin: 0 10px 45px 30px;
+  margin: 0 10px 20px 30px;
 }
 
 .top-left-intro-text {
+  /* text-align: center; */
   width: 90%;
   z-index: 5;
   font-family: "SCDream";
   font-weight: 400;
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   position: relative;
   animation: fadeInUp 1.5s;
   text-shadow: -0.5px 0px black, 0px 0.5px black, 0.5px 0px black, 0px -0.5px black;
@@ -332,7 +316,7 @@ button {
   margin-right: 3%;
 }
 
-@media (max-width: 1242px) {
+@media (max-width: 1411px) {
   .top-section {
     display: flex;
     width: 100%;
@@ -364,7 +348,6 @@ button {
 
   .top-left-container {
     width: 95%;
-    margin: 0;
     align-items: center;
   }
   .top-left-main-title {
@@ -384,10 +367,9 @@ button {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 796px) {
   .top-left-container {
     width: 90%;
-    height: 450px;
   }
   .top-left-main-title {
     font-size: 23px;
@@ -406,10 +388,16 @@ button {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .top-left-logo {
+    visibility: hidden;
+  }
   .top-left-container {
     width: 90%;
-    height: 500px;
+    margin-bottom: 10%;
+  }
+  .top-left-main-title {
+    font-size: 17px;
   }
 }
 
@@ -535,7 +523,7 @@ button {
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 1.39;
+  aspect-ratio: 1.4;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease; /* 확대 효과를 부드럽게 적용 */
@@ -573,8 +561,8 @@ button {
   }
 }
 
-/* 모바일 화면 (768px 이하)에서는 카드 1개씩 배치 */
-@media (max-width: 767px) {
+/* 모바일 화면 (650px 이하)에서는 카드 1개씩 배치 */
+@media (max-width: 650px) {
   .bottom-title-1945 {
     font-size: 35px;
     width: 205px;
